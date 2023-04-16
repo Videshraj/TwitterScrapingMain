@@ -4,11 +4,11 @@ os.system('pip install snscrape')
 os.system('pip install pandas')
 os.system('pip install pymongo')
 os.system('pip install streamlit')
-import snscrape
+
 import pandas as pd
 from pymongo import MongoClient
 import streamlit as st
-
+import snscrape
 # Function to scrape Twitter data using snscrape library
 def scrape_twitter_data(keyword, start_date, end_date, limit):
     # Initialize an empty list to store scraped data
